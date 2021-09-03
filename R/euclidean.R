@@ -34,7 +34,3 @@ euclidean <- function(x1, x2){
   return(x1)
 }
 
-
-print("Skriver nytt här: Linus")
-
-print("testar igen")
