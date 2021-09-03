@@ -1,12 +1,13 @@
 #' Title
 #'
-#' @param x1
-#' @param x2
-#'
-#' @return
+#' @param x1 first number
+#' @param x2 second number
+#' @references \href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{wikipedia page}
+#' @return returns greater common divisor of two value
 #' @export
 #'
-#' @examples
+#' @examples euclidean(100, 1000)
+
 euclidean <- function(x1, x2){
 
   if(!is.numeric(x1)){
