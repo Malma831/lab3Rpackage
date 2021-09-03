@@ -34,3 +34,4 @@ euclidean <- function(x1, x2){
 }
 
 
+print("Skriver nytt här: Linus")
