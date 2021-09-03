@@ -6,6 +6,6 @@
 #' @export
 #'
 #' @examples
-hello <- function() {
-  print("Hello, world!")
+hello <- function(x) {
+  x+1
 }
