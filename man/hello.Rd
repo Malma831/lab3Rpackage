@@ -4,7 +4,7 @@
 \alias{hello}
 \title{Title function hello}
 \usage{
-hello()
+hello(x)
 }
 \value{
 hello world
