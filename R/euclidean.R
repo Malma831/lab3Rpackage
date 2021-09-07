@@ -9,7 +9,7 @@
 #' @examples euclidean(100, 1000)
 
 euclidean <- function(x1, x2){
-  stopifnot(!is.numeric(x) | !is.numeric(y) | length(x)!=1 | length(y)!=1)
+  stopifnot(!is.numeric(x1) | !is.numeric(x2) | length(x1)!=1 | length(x2)!=1)
 
   while(x2 != 0){
     t <- x2
