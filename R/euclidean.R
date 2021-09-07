@@ -23,7 +23,7 @@ euclidean <- function(x1, x2){
   }
 
 
-  while(x2 != 0){ #x2 är b och x1 är a från pseudokod.
+  while(x2 != 0){
     t <- x2
     x2 <-  x1 %% x2
     x1 <- t
@@ -33,4 +33,5 @@ euclidean <- function(x1, x2){
 
   return(x1)
 }
+
 
