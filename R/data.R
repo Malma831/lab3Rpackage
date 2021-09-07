@@ -1,13 +1,13 @@
-#' Prices of 50,000 round cut diamonds.
+#' Dataset for Dijkstra's algorithm presented on the Wikipedia page.
 #'
-#' A dataset containing the prices and other attributes of almost 54,000
-#' diamonds.
+#' A dataset containing the vertices and edges of the graph presented on the wikipedia page on Dijkstra's algorithm.
 #'
-#' @format A data frame with 53940 rows and 10 variables:
+#' @format A data.frame with 18 rows and 3 columns:
 #' \describe{
-#'   \item{v1}{price, in US dollars}
-#'   \item{v2}{weight of the diamond, in carats}
-#'   \item{w}{weight of the diamond, in carats}
+#'   \item{v1}{Number of one vertex in the graph}
+#'   \item{v2}{Number of another vertex in the graph}
+#'   \item{w}{Weight of the edge in the graph connecting two vertices}
 #' }
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://en.wikipedia.org/wiki/Dijkstra's_algorithm}
 "wiki_graph"
+
