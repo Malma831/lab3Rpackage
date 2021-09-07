@@ -22,7 +22,6 @@ euclidean <- function(x1, x2){
     stop("x2 is not an integer")
   }
 
-
   while(x2 != 0){
     t <- x2
     x2 <-  x1 %% x2
