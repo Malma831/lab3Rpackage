@@ -10,4 +10,4 @@
 #'   \item{w}{weight of the diamond, in carats}
 #' }
 #' @source \url{http://www.diamondse.info/}
-"wiki_gragh"
+"wiki_graph"
