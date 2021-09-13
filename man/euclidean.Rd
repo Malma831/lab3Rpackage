@@ -2,7 +2,7 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Title}
+\title{The Eucidean algorithm}
 \usage{
 euclidean(x1, x2)
 }
@@ -15,7 +15,7 @@ euclidean(x1, x2)
 returns greater common divisor of two value
 }
 \description{
-Title
+The Eucidean algorithm
 }
 \examples{
 euclidean(100, 1000)
