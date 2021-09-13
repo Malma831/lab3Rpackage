@@ -1,6 +1,6 @@
 Package: lab3Rpackage
 Type: Package
-Title: The package has two functions, the Euclidian function and Dijkstra function.
+Title: The package has two functions, the Euclidian function and Dijkstra function
 Version: 1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
