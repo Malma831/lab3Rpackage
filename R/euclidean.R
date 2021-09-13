@@ -1,4 +1,4 @@
-#' Title
+#' The Eucidean algorithm
 #'
 #' @param x1 first number
 #' @param x2 second number
