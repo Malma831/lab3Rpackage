@@ -1,11 +1,11 @@
 Package: lab3Rpackage
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Title: The package has two functions, the Euclidian function and Dijkstra function.
+Version: 1.0
+Author: Malke Marouki and Linus Kåge.
+Maintainer: Malke Marouki malma831@student.liu.se and Linus Kåge linka360@student.liu.se
+Description: The Euclidian algorithm is used to compute the greates common divisor of two integers 
+      and Dijkstra’s algorithm is used to compute the shortest path algorithm in a graph. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
