@@ -24,7 +24,6 @@ dijkstra <- function(data, init_node){
   if(!(init_node %in% unique(data$v1))) stop("init_node does not exist in the graph.")
   if(ncol(data) != 3 | !all(names(data) %in% c("v1", "v2", "w"))) stop("Wrong input")
 
-
   Q <- unique(data$v1)
   dist <- rep(Inf, length(Q))
   prev <- rep(NA, length(Q))
